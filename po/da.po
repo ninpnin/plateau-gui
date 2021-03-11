@@ -1,0 +1,2505 @@
+# Danish translation for marlin
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the marlin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: marlin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-04 17:37+0000\n"
+"PO-Revision-Date: 2020-05-31 21:38+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/files/files/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:25+0000\n"
+
+#: src/Application.vala:124
+msgid "Show the version of the program"
+msgstr "Vis versionen af programmet"
+
+#: src/Application.vala:126
+msgid "Open one or more URIs, each in their own tab"
+msgstr "Åbn en eller flere URI'er, hver især i sin egen fane"
+
+#: src/Application.vala:128 src/View/AbstractDirectoryView.vala:1857
+msgid "New Window"
+msgstr "Nyt vindue"
+
+#: src/Application.vala:130
+msgid "Quit Files"
+msgstr "Luk Filer"
+
+#: src/Application.vala:132
+msgid "Enable debug logging"
+msgstr "Aktiver logning af debuginformation"
+
+#: src/Application.vala:135
+msgid "[URI…]"
+msgstr "[URI…]"
+
+#: src/Application.vala:138
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"Navigér filsystemet med filhåndteringen"
+
+#: src/Application.vala:166
+msgid "--quit cannot be used with URIs."
+msgstr "--quit kan ikke bruges med URI'er."
+
+#: src/ProgressUIHandler.vala:129 src/ProgressUIHandler.vala:192
+msgid "File Operations"
+msgstr "Filhandlinger"
+
+#. TRANSLATORS: %s will be replaced by the title of the file operation
+#: src/ProgressUIHandler.vala:186
+#, c-format
+msgid "Completed %s"
+msgstr "Fuldførte %s"
+
+#: src/ProgressUIHandler.vala:189
+msgid "All file operations have ended"
+msgstr "Alle filhandlinger er afsluttet"
+
+#: src/ProgressUIHandler.vala:237
+msgid "Show Copy Dialog"
+msgstr "Vis kopiéringsdialog"
+
+#: src/ProgressUIHandler.vala:249
+msgid "Cancel All In-progress Actions"
+msgstr "Afbryd alle igangværende handlinger"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:49
+msgid "Info"
+msgstr "Info"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:59
+msgid "General"
+msgstr "Generelt"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:80 libcore/StockDialogs.vala:101
+msgid "Close"
+msgstr "Luk"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:144
+msgid "Device Usage"
+msgstr "Enhedsforbrug"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:164
+msgid "Capacity:"
+msgstr "Kapacitet:"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:165
+#: src/Dialogs/AbstractPropertiesDialog.vala:168
+#: src/Dialogs/AbstractPropertiesDialog.vala:171
+#: src/Dialogs/PropertiesWindow.vala:451 src/Dialogs/PropertiesWindow.vala:490
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:167
+msgid "Available:"
+msgstr "Tilgængelig:"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:170
+msgid "Used:"
+msgstr "I brug:"
+
+#: src/Dialogs/ChooseAppDialog.vala:43
+msgid "Set as default"
+msgstr "Indstil som standard"
+
+#: src/Dialogs/PropertiesWindow.vala:123
+#: src/View/AbstractDirectoryView.vala:1967 src/View/PopupMenuBuilder.vala:81
+msgid "Properties"
+msgstr "Egenskaber"
+
+#: src/Dialogs/PropertiesWindow.vala:234
+msgid "Permissions"
+msgstr "Rettigheder"
+
+#: src/Dialogs/PropertiesWindow.vala:255
+#, c-format
+msgid "%i file could not be read due to permissions or other errors."
+msgid_plural "%i files could not be read due to permissions or other errors."
+msgstr[0] ""
+"%i filen kunne ikke læses grundet manglende rettigheder, eller andre fejl."
+msgstr[1] ""
+"%i filerne kunne ikke læses grundet manglende rettigheder, eller andre fejl."
+
+#: src/Dialogs/PropertiesWindow.vala:259
+msgid "Actual Size Could Be Larger"
+msgstr "Den faktiske størrelse kan være større"
+
+#: src/Dialogs/PropertiesWindow.vala:279 src/Dialogs/PropertiesWindow.vala:298
+msgid "unknown"
+msgstr "ukendt"
+
+#: src/Dialogs/PropertiesWindow.vala:462
+msgid "Loading…"
+msgstr "Indlæser…"
+
+#: src/Dialogs/PropertiesWindow.vala:496
+msgid "Could not be determined"
+msgstr "Kunne ikke bestemmes"
+
+#: src/Dialogs/PropertiesWindow.vala:522 libcore/FileConflictDialog.vala:129
+#: libcore/FileConflictDialog.vala:167
+msgid "Size:"
+msgstr "Størrelse:"
+
+#: src/Dialogs/PropertiesWindow.vala:529 libcore/ConnectServerDialog.vala:175
+#: libcore/FileConflictDialog.vala:139 libcore/FileConflictDialog.vala:177
+msgid "Type:"
+msgstr "Type:"
+
+#: src/Dialogs/PropertiesWindow.vala:532
+msgid "Contains:"
+msgstr "Indeholder:"
+
+#: src/Dialogs/PropertiesWindow.vala:556
+msgid "Created:"
+msgstr "Oprettet:"
+
+#: src/Dialogs/PropertiesWindow.vala:567
+msgid "Modified:"
+msgstr "Ændret:"
+
+#: src/Dialogs/PropertiesWindow.vala:579
+msgid "Deleted:"
+msgstr "Slettet:"
+
+#: src/Dialogs/PropertiesWindow.vala:589
+msgid "Media type:"
+msgstr "Medietype:"
+
+#: src/Dialogs/PropertiesWindow.vala:596
+msgid "Resolution:"
+msgstr "Opløsning:"
+
+#: src/Dialogs/PropertiesWindow.vala:604
+#: src/Dialogs/VolumePropertiesWindow.vala:80
+msgid "Location:"
+msgstr "Lokation:"
+
+#: src/Dialogs/PropertiesWindow.vala:614
+msgid "Target:"
+msgstr "Mål:"
+
+#: src/Dialogs/PropertiesWindow.vala:622
+msgid "Original Location:"
+msgstr "Original placering:"
+
+#: src/Dialogs/PropertiesWindow.vala:645
+#: src/View/AbstractDirectoryView.vala:1935
+msgid "Other Application…"
+msgstr "Anden Applikation…"
+
+#: src/Dialogs/PropertiesWindow.vala:665
+msgid "Open with:"
+msgstr "Åbn med:"
+
+#: src/Dialogs/PropertiesWindow.vala:930 src/Dialogs/PropertiesWindow.vala:940
+msgid "Owner:"
+msgstr "Ejer:"
+
+#: src/Dialogs/PropertiesWindow.vala:934 src/Dialogs/PropertiesWindow.vala:943
+msgid "Group:"
+msgstr "Gruppe:"
+
+#: src/Dialogs/PropertiesWindow.vala:946
+msgid "Everyone:"
+msgstr "Alle:"
+
+#: src/Dialogs/PropertiesWindow.vala:1227
+#, c-format
+msgid "%u subfolder"
+msgid_plural "%u subfolders"
+msgstr[0] "%u undermappe"
+msgstr[1] "%u undermapper"
+
+#: src/Dialogs/PropertiesWindow.vala:1231
+#: src/Dialogs/PropertiesWindow.vala:1253
+#, c-format
+msgid "%u file"
+msgid_plural "%u files"
+msgstr[0] "%u fil"
+msgstr[1] "%u filer"
+
+#. TRANSLATORS: folders, files
+#: src/Dialogs/PropertiesWindow.vala:1236
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: src/Dialogs/PropertiesWindow.vala:1249 src/View/Widgets/OverlayBar.vala:218
+#, c-format
+msgid "%u folder"
+msgid_plural "%u folders"
+msgstr[0] "%u mappe"
+msgstr[1] "%u mapper"
+
+#: src/Dialogs/PropertiesWindow.vala:1258
+#, c-format
+msgid "%u selected item"
+msgid_plural "%u selected items"
+msgstr[0] "%u valgt post"
+msgstr[1] "%u valgte poster"
+
+#. TRANSLATORS: total (folders, files)
+#: src/Dialogs/PropertiesWindow.vala:1260
+#, c-format
+msgid "%s (%s, %s)"
+msgstr "%s (%s, %s)"
+
+#: src/Dialogs/VolumePropertiesWindow.vala:28
+msgid "Disk Properties"
+msgstr "Diskegenskaber"
+
+#: src/Dialogs/VolumePropertiesWindow.vala:44 src/View/Sidebar.vala:654
+#: libwidgets/Resources.vala:68
+msgid "File System"
+msgstr "Filsystem"
+
+#: src/Dialogs/VolumePropertiesWindow.vala:90
+msgid "Format:"
+msgstr "Format:"
+
+#: src/Utils/MimeActions.vala:283
+msgid "Multiple file types selected"
+msgstr "Flere filtyper er valgt"
+
+#: src/Utils/MimeActions.vala:284
+msgid "No single app can open all these types of file"
+msgstr "Ingen applikation kan åbne alle disse filtyper"
+
+#: src/Utils/MimeActions.vala:311
+msgid "Failed to open files"
+msgstr "Kunne ikke åbne filer"
+
+#: src/Utils/MimeActions.vala:321
+msgid "Could not open URIs"
+msgstr "Kunne ikke åbne URIs"
+
+#: src/Utils/MimeActions.vala:324
+msgid "Could not open files or URIs with this app"
+msgstr "Kunne ikke åbne filer eller URIs med denne app"
+
+#: src/View/Window.vala:532 src/View/Window.vala:542
+msgid "(as Administrator)"
+msgstr "(som Administrator)"
+
+#: src/View/ListView.vala:26
+msgid "Filename"
+msgstr "Filnavn"
+
+#: src/View/ListView.vala:27 src/View/AbstractDirectoryView.vala:2169
+msgid "Size"
+msgstr "Størrelse"
+
+#: src/View/ListView.vala:28 src/View/AbstractDirectoryView.vala:2174
+msgid "Type"
+msgstr "Type"
+
+#: src/View/ListView.vala:29
+msgid "Modified"
+msgstr "Ændret"
+
+#: src/View/DirectoryNotFound.vala:27 src/View/ViewContainer.vala:404
+msgid "This Folder Does Not Exist"
+msgstr "Denne mappe eksisterer ikke"
+
+#: src/View/DirectoryNotFound.vala:28
+#, c-format
+msgid "The folder \"%s\" can't be found."
+msgstr "Mappen \"%s\" kan ikke findes."
+
+#: src/View/DirectoryNotFound.vala:30
+msgid "Create"
+msgstr "Opret"
+
+#: src/View/DirectoryNotFound.vala:30
+#, c-format
+msgid "Create the folder \"%s\""
+msgstr "Opret mappen \"%s\""
+
+#: src/View/DirectoryNotFound.vala:45
+msgid "Failed to create the folder"
+msgstr "Oprettelsen af mappen fejlede"
+
+#: src/View/AbstractDirectoryView.vala:818
+#: src/View/AbstractDirectoryView.vala:1129
+msgid "Cannot execute this file"
+msgstr "Kan ikke eksekvere denne fil"
+
+#. TRANSLATORS: '%s' is a quoted placehorder for the name of a file. It can be moved but not omitted
+#: src/View/AbstractDirectoryView.vala:828
+#, c-format
+msgid "“%s” must be moved from Trash before opening"
+msgstr "\"%s\" skal flyttes ud af Papirkurven før den kan åbnes"
+
+#: src/View/AbstractDirectoryView.vala:829
+msgid ""
+"Files inside Trash cannot be opened. To open this file, it must be moved "
+"elsewhere."
+msgstr ""
+"Filer i Papirkurven kan ikke åbnes. For at åbne denne fil, skal den flyttes "
+"til et andet sted."
+
+#: src/View/AbstractDirectoryView.vala:844
+msgid "Cannot open this file"
+msgstr "Kan ikke åbne denne fil"
+
+#: src/View/AbstractDirectoryView.vala:857
+msgid "Cannot identify file type to open"
+msgstr "Kan ikke identificere filen som skal åbnes"
+
+#: src/View/AbstractDirectoryView.vala:1575
+msgid "Cannot drop this file"
+msgstr "Kan ikke droppe denne fil"
+
+#: src/View/AbstractDirectoryView.vala:1576
+msgid "Invalid file name provided"
+msgstr "Ugyldigt filnavn angivet"
+
+#: src/View/AbstractDirectoryView.vala:1851
+msgid "New Tab"
+msgstr "Nyt faneblad"
+
+#: src/View/AbstractDirectoryView.vala:1871
+msgid "Run"
+msgstr "Kør"
+
+#: src/View/AbstractDirectoryView.vala:1878
+#, c-format
+msgid "Open in %s"
+msgstr "Åbn i %s"
+
+#: src/View/AbstractDirectoryView.vala:1947
+msgid "Open in"
+msgstr "Åben i"
+
+#: src/View/AbstractDirectoryView.vala:1949
+#: src/View/Widgets/BreadcrumbsEntry.vala:491
+msgid "Open with"
+msgstr "Åbn med"
+
+#: src/View/AbstractDirectoryView.vala:1955
+msgid "Paste"
+msgstr "Indsæt"
+
+#: src/View/AbstractDirectoryView.vala:1960 src/View/PopupMenuBuilder.vala:85
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Add to Bookmarks"
+msgstr "Bogmærker"
+
+#: src/View/AbstractDirectoryView.vala:1975
+msgid "Cut"
+msgstr "Klip"
+
+#: src/View/AbstractDirectoryView.vala:1982
+msgid "Copy"
+msgstr "Kopiér"
+
+#: src/View/AbstractDirectoryView.vala:1989
+msgid "Move to Trash"
+msgstr "Flyt til papirkurven"
+
+#: src/View/AbstractDirectoryView.vala:1994
+msgid "Delete permanently"
+msgstr "Slet permanent"
+
+#: src/View/AbstractDirectoryView.vala:1999
+msgid "Restore from Trash"
+msgstr "Gendan fra papirkurven"
+
+#: src/View/AbstractDirectoryView.vala:2010
+msgid "Open Parent Folder"
+msgstr "Åbn overordnede mappe"
+
+#: src/View/AbstractDirectoryView.vala:2013
+msgid "Remove from History"
+msgstr "Slet fra historien"
+
+#: src/View/AbstractDirectoryView.vala:2029
+msgid "Rename…"
+msgstr "Omdøb…"
+
+#: src/View/AbstractDirectoryView.vala:2036
+msgid "Copy as Link"
+msgstr "Kopier som Link"
+
+#: src/View/AbstractDirectoryView.vala:2054
+msgid "Paste Link into Folder"
+msgstr "Indsæt Link i Mappen"
+
+#: src/View/AbstractDirectoryView.vala:2056
+msgid "Paste into Folder"
+msgstr "Indsæt i mappen"
+
+#: src/View/AbstractDirectoryView.vala:2084
+msgid "Show Hidden Files"
+msgstr "Vis skjulte filer"
+
+#: src/View/AbstractDirectoryView.vala:2087
+msgid "Show Remote Thumbnails"
+msgstr "Vis Fjern Miniaturer"
+
+#: src/View/AbstractDirectoryView.vala:2090
+msgid "Hide Thumbnails"
+msgstr "Skjul Miniaturer"
+
+#: src/View/AbstractDirectoryView.vala:2110
+msgid "Paste Link"
+msgstr "Indsæt Link"
+
+#: src/View/AbstractDirectoryView.vala:2164
+msgid "Name"
+msgstr "Navn"
+
+#: src/View/AbstractDirectoryView.vala:2179
+msgid "Date"
+msgstr "Dato"
+
+#: src/View/AbstractDirectoryView.vala:2184
+msgid "Reversed Order"
+msgstr "Omvendt rækkefølge"
+
+#: src/View/AbstractDirectoryView.vala:2187
+msgid "Folders Before Files"
+msgstr "Mapper før Filer"
+
+#: src/View/AbstractDirectoryView.vala:2199
+msgid "Sort by"
+msgstr "Sorter efter"
+
+#: src/View/AbstractDirectoryView.vala:2207
+msgid "Folder"
+msgstr "Mappe"
+
+#: src/View/AbstractDirectoryView.vala:2213
+msgid "Empty File"
+msgstr "Tom fil"
+
+#: src/View/AbstractDirectoryView.vala:2264
+msgid "New"
+msgstr "Ny"
+
+#: src/View/AbstractDirectoryView.vala:2501
+#, c-format
+msgid "Untitled %s"
+msgstr "Unavngivet %s"
+
+#: src/View/AbstractDirectoryView.vala:2863
+#: src/View/AbstractDirectoryView.vala:3064
+msgid "Cannot remove files from here"
+msgstr "Kan ikke fjerne filer herfra"
+
+#: src/View/AbstractDirectoryView.vala:2864
+#: src/View/AbstractDirectoryView.vala:3049
+#: src/View/AbstractDirectoryView.vala:3065
+msgid "You do not have permission to change this location"
+msgstr "Du har ikke rettigheder til at ændre denne placering"
+
+#: src/View/AbstractDirectoryView.vala:3018
+msgid "Cannot copy files that are in the trash"
+msgstr "Kan ikke kopiere filer der er i papirkurven"
+
+#: src/View/AbstractDirectoryView.vala:3019
+msgid "Cutting the selection instead"
+msgstr "Klipper det markerede i stedet"
+
+#: src/View/AbstractDirectoryView.vala:3048
+msgid "Cannot paste files here"
+msgstr "Kan ikke indsætte filer her"
+
+#: src/View/ViewContainer.vala:383 src/View/Sidebar.vala:587
+msgid "Home"
+msgstr "Hjem"
+
+#: src/View/ViewContainer.vala:405
+msgid "You cannot create a folder here."
+msgstr "Du kan ikke oprette en mappe her."
+
+#: src/View/ViewContainer.vala:408
+msgid "The network is unavailable"
+msgstr "Netværket er utilgængeligt"
+
+#: src/View/ViewContainer.vala:409
+msgid "A working network is needed to reach this folder"
+msgstr "Der kræves et fungerende netværk for at kunne nå denne mappe"
+
+#: src/View/ViewContainer.vala:412
+msgid "This Folder Does Not Belong to You"
+msgstr "Denne mappe tilhører ikke dig"
+
+#: src/View/ViewContainer.vala:413
+msgid "You don't have permission to view this folder."
+msgstr "Du har ikke tilladelse til at se denne mappe."
+
+#: src/View/ViewContainer.vala:415
+msgid "Unable to Mount Folder"
+msgstr "Kan ikke montere mappe"
+
+#: src/View/ViewContainer.vala:416
+msgid "Could not connect to the server for this folder."
+msgstr "Kunne ikke oprette forbindelse til serveren for denne mappe."
+
+#: src/View/ViewContainer.vala:419
+msgid "Unable to Display Folder Contents"
+msgstr "Kan ikke vise mappeindhold"
+
+#: src/View/ViewContainer.vala:420
+msgid "The operation timed out."
+msgstr "Handlingen fik timeout."
+
+#: src/View/ViewContainer.vala:422
+msgid "Unable to Show Folder"
+msgstr "Kan ikke vise mappe"
+
+#: src/View/ViewContainer.vala:423
+msgid "The server for this folder could not be located."
+msgstr "Kan ikke finde serveren for denne mappe."
+
+#: src/View/ViewContainer.vala:434
+msgid "File not Found"
+msgstr "Filen blev ikke fundet"
+
+#: src/View/ViewContainer.vala:435
+msgid "The file selected no longer exists."
+msgstr "Den valgte fil eksisterer ikke længere."
+
+#: src/View/Sidebar.vala:573 libwidgets/View/SearchResults.vala:248
+msgid "Bookmarks"
+msgstr "Bogmærker"
+
+#: src/View/Sidebar.vala:574
+msgid "Common places plus saved folders and files"
+msgstr ""
+
+#: src/View/Sidebar.vala:594
+msgid "Open your personal folder"
+msgstr "Åbn din personlige mappe"
+
+#: src/View/Sidebar.vala:609
+msgid "View the list of recently used files"
+msgstr "Se listen med de seneste filer"
+
+#: src/View/Sidebar.vala:635 libwidgets/Resources.vala:65
+msgid "Trash"
+msgstr "Papirkurv"
+
+#: src/View/Sidebar.vala:642
+msgid "Open the Trash"
+msgstr "Åben papirkurven"
+
+#: src/View/Sidebar.vala:647
+msgid "Devices"
+msgstr "Enheder"
+
+#: src/View/Sidebar.vala:648
+msgid "Internal and connected storage devices"
+msgstr ""
+
+#: src/View/Sidebar.vala:777 libwidgets/Resources.vala:62
+msgid "Network"
+msgstr "Netværk"
+
+#: src/View/Sidebar.vala:778
+msgid "Devices and places available via a network"
+msgstr ""
+
+#: src/View/Sidebar.vala:810
+msgid "Entire Network"
+msgstr "Hele netværk"
+
+#: src/View/Sidebar.vala:817
+msgid "Browse the contents of the network"
+msgstr "Gennemse indholdet af netværket"
+
+#: src/View/Sidebar.vala:820
+msgid "Connect Server"
+msgstr "Forbind Server"
+
+#: src/View/Sidebar.vala:821
+msgid "Connect to a network server"
+msgstr "Opret forbindelse til en netværksserver"
+
+#. TRANSLATORS: The first string placeholder '%s' represents a device label, the second '%s' represents a mount name.
+#: src/View/Sidebar.vala:892
+#, fuzzy, c-format
+#| msgid "%s of %s"
+msgid "%s on %s"
+msgstr "%s af %s"
+
+#: src/View/Sidebar.vala:979
+#, c-format
+msgid "%s free"
+msgstr ""
+
+#: src/View/Sidebar.vala:980
+#, fuzzy, c-format
+#| msgid "%s of %s"
+msgid "%s used of %s"
+msgstr "%s af %s"
+
+#: src/View/Sidebar.vala:1456
+#, c-format
+msgid "Error mounting volume %s"
+msgstr "Fejl ved montering af drev %s"
+
+#: src/View/Sidebar.vala:1471
+#, c-format
+msgid "Unable to start %s"
+msgstr "Kan ikke starte %s"
+
+#: src/View/Sidebar.vala:1661 libcore/StockDialogs.vala:31
+msgid "Empty _Trash"
+msgstr "_Tøm papirkurven"
+
+#: src/View/Slot.vala:31
+msgid "This Folder Is Empty"
+msgstr "Denne mappe er tom"
+
+#: src/View/Slot.vala:32
+msgid "Trash Is Empty"
+msgstr "Papirkurven er tom"
+
+#: src/View/Slot.vala:33
+msgid "There Are No Recent Files"
+msgstr "Der er ikke nogen seneste filer"
+
+#: src/View/Slot.vala:34
+msgid "Access Denied"
+msgstr "Adgang nægtet"
+
+#: src/View/PrivacyModeOn.vala:28
+msgid "Privacy mode is on"
+msgstr "Privat-tilstand er aktiveret"
+
+#: src/View/PrivacyModeOn.vala:28
+msgid "No recent files are remembered"
+msgstr "Ingen nylige filer er husket"
+
+#: src/View/PrivacyModeOn.vala:30
+msgid "Change security settings"
+msgstr "Skift sikkerhedsindstillinger"
+
+#: src/View/PrivacyModeOn.vala:31
+msgid "Open the system security and privacy settings app"
+msgstr "Åbn systemets sikkerheds- og privatlivsindstillinger-app"
+
+#: src/View/PopupMenuBuilder.vala:49
+msgid "Open"
+msgstr "Åbn"
+
+#: src/View/PopupMenuBuilder.vala:53
+msgid "Open in New _Tab"
+msgstr "Åbn i nyt _faneblad"
+
+#: src/View/PopupMenuBuilder.vala:57
+msgid "Open in New _Window"
+msgstr "Åbn i nyt _vindue"
+
+#: src/View/PopupMenuBuilder.vala:61
+msgid "Remove"
+msgstr "Fjern"
+
+#: src/View/PopupMenuBuilder.vala:65
+msgid "Rename"
+msgstr "Omdøb"
+
+#: src/View/PopupMenuBuilder.vala:69
+msgid "_Mount"
+msgstr "_Montér"
+
+#: src/View/PopupMenuBuilder.vala:73
+msgid "_Unmount"
+msgstr "_Afmontér"
+
+#: src/View/PopupMenuBuilder.vala:77
+msgid "_Eject"
+msgstr "_Skub ud"
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:135
+#: src/View/Widgets/LocationBar.vala:198
+msgid "Search or Type Path"
+msgstr "Søg eller Skriv Sti"
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:448
+msgid "Open in New Tab"
+msgstr "Åbn i nyt faneblad"
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:455
+msgid "Open in New Window"
+msgstr "Åbn i nyt vindue"
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:498
+msgid "Open in Other Application…"
+msgstr "Åbn i en Anden Applikation…"
+
+#: src/View/Widgets/HeaderBar.vala:66
+#: filechooser-module/FileChooserDialog.vala:75
+msgid "Previous"
+msgstr "Forrige"
+
+#: src/View/Widgets/HeaderBar.vala:73
+#: filechooser-module/FileChooserDialog.vala:79
+msgid "Next"
+msgstr "Næste"
+
+#: src/View/Widgets/LocationBar.vala:194
+msgid "Reload this folder"
+msgstr "Genindlæs denne mappe"
+
+#: src/View/Widgets/LocationBar.vala:207
+msgid "Searching…"
+msgstr "Søger…"
+
+#: src/View/Widgets/OverlayBar.vala:209
+#, c-format
+msgid "%u folders"
+msgstr "%u mapper"
+
+#: src/View/Widgets/OverlayBar.vala:211 src/View/Widgets/OverlayBar.vala:221
+#, c-format
+msgid " and %u other item (%s) selected"
+msgstr " og %u yderligere element (%s) er valgt"
+
+#: src/View/Widgets/OverlayBar.vala:212 src/View/Widgets/OverlayBar.vala:222
+#, c-format
+msgid " and %u other items (%s) selected"
+msgstr " og %u yderligere elementer (%s) er valgt"
+
+#: src/View/Widgets/OverlayBar.vala:215 src/View/Widgets/OverlayBar.vala:225
+msgid " selected"
+msgstr " valgt"
+
+#: src/View/Widgets/OverlayBar.vala:228
+#, c-format
+msgid "%u items selected (%s)"
+msgstr "%u elementer valgt (%s)"
+
+#. TRANSLATORS: %u will be substituted by the number of sub folders
+#: src/View/Widgets/OverlayBar.vala:272
+#, c-format
+msgid "%u sub-folder, "
+msgstr "%u undermappe, "
+
+#: src/View/Widgets/OverlayBar.vala:272
+#, c-format
+msgid "%u sub-folders, "
+msgstr "%u undermapper, "
+
+#. TRANSLATORS: %u will be substituted by the number of readable files
+#: src/View/Widgets/OverlayBar.vala:278
+#, c-format
+msgid "%u file, "
+msgstr "%u fil, "
+
+#: src/View/Widgets/OverlayBar.vala:278
+#, c-format
+msgid "%u files, "
+msgstr "%u filer, "
+
+#. TRANSLATORS: %s will be substituted by the approximate disk space used by the folder
+#: src/View/Widgets/OverlayBar.vala:288
+#, c-format
+msgid "%s approx."
+msgstr "%s cirka."
+
+#. TRANSLATORS: 'size' refers to disk space
+#: src/View/Widgets/OverlayBar.vala:291
+msgid "unknown size"
+msgstr "ukendt størrelse"
+
+#. TRANSLATORS: %u will be substituted by the number of unreadable files
+#: src/View/Widgets/OverlayBar.vala:295
+#, c-format
+msgid "%u file not readable"
+msgstr "%u fil kan ikke læses"
+
+#: src/View/Widgets/OverlayBar.vala:295
+#, c-format
+msgid "%u files not readable"
+msgstr "%u filer kan ikke læses"
+
+#: src/View/Widgets/PermissionButton.vala:38
+msgid "Read"
+msgstr "Læs"
+
+#: src/View/Widgets/PermissionButton.vala:42
+msgid "Write"
+msgstr "Skriv"
+
+#: src/View/Widgets/PermissionButton.vala:46
+msgid "Execute"
+msgstr "Kør"
+
+#: libcore/ConnectServerDialog.vala:46
+msgid "Public FTP"
+msgstr "Offentlig FTP"
+
+#: libcore/ConnectServerDialog.vala:52
+msgid "FTP (with login)"
+msgstr "FTP (med logind)"
+
+#: libcore/ConnectServerDialog.vala:59
+msgid "SSH"
+msgstr "SSH"
+
+#: libcore/ConnectServerDialog.vala:65
+msgid "AFP (Apple Filing Protocol)"
+msgstr "AFP (Apple Filing Protocol)"
+
+#: libcore/ConnectServerDialog.vala:71
+msgid "Windows share"
+msgstr "Windows delt mappe"
+
+#: libcore/ConnectServerDialog.vala:77
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: libcore/ConnectServerDialog.vala:84
+msgid "Secure WebDAV (HTTPS)"
+msgstr "Sikker WebDAV (HTTPS)"
+
+#: libcore/ConnectServerDialog.vala:132
+msgid "Server Details"
+msgstr "Serverdetaljer"
+
+#: libcore/ConnectServerDialog.vala:134
+msgid "Server name or IP address"
+msgstr "Server navn eller IP-adresse"
+
+#: libcore/ConnectServerDialog.vala:138
+msgid "Server:"
+msgstr "Server:"
+
+#: libcore/ConnectServerDialog.vala:146
+msgid "Port:"
+msgstr "Port:"
+
+#: libcore/ConnectServerDialog.vala:177
+msgid "Name of share on server"
+msgstr "Delt mappe's navn på serveren"
+
+#: libcore/ConnectServerDialog.vala:178
+msgid "Share:"
+msgstr "Delt mappe:"
+
+#: libcore/ConnectServerDialog.vala:180
+msgid "Path of shared folder on server"
+msgstr "Delt mappe's sti på serveren"
+
+#: libcore/ConnectServerDialog.vala:181
+msgid "Folder:"
+msgstr "Mappe:"
+
+#: libcore/ConnectServerDialog.vala:183
+msgid "User Details"
+msgstr "Brugerdetaljer"
+
+#: libcore/ConnectServerDialog.vala:185
+msgid "Name of Windows domain"
+msgstr "Navn på Windows domæne"
+
+#: libcore/ConnectServerDialog.vala:186
+msgid "Domain name:"
+msgstr "Domænenavn:"
+
+#: libcore/ConnectServerDialog.vala:188
+msgid "Name of user on server"
+msgstr "Navn på bruger på server"
+
+#: libcore/ConnectServerDialog.vala:189
+msgid "User name:"
+msgstr "Brugernavn:"
+
+#: libcore/ConnectServerDialog.vala:196
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: libcore/ConnectServerDialog.vala:198
+msgid "Remember this password"
+msgstr "Husk denne adgangskode"
+
+#: libcore/ConnectServerDialog.vala:201 libcore/DndHandler.vala:102
+#: libcore/FileConflictDialog.vala:219
+msgid "Cancel"
+msgstr "Annuller"
+
+#: libcore/ConnectServerDialog.vala:205
+msgid "Connect"
+msgstr "Forbind"
+
+#: libcore/ConnectServerDialog.vala:214
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: libcore/ConnectServerDialog.vala:265
+msgid "Connecting…"
+msgstr "Opretter forbindelse…"
+
+#: libcore/ConnectServerDialog.vala:388
+msgid "Please verify your user details."
+msgstr "Kontrollér venligst dine brugerdetajler."
+
+#: libcore/DndHandler.vala:48
+#, c-format
+msgid "Failed to execute \"%s\""
+msgstr "Kunne ikke udføre \"%s\""
+
+#: libcore/DndHandler.vala:97
+msgid "Move Here"
+msgstr "Flyt hertil"
+
+#: libcore/DndHandler.vala:98
+msgid "Copy Here"
+msgstr "Kopiér hertil"
+
+#: libcore/DndHandler.vala:99
+msgid "Link Here"
+msgstr "Henvis hertil"
+
+#: libcore/FileConflictDialog.vala:64
+msgid "File conflict"
+msgstr "Filkonflikt"
+
+#: libcore/FileConflictDialog.vala:122
+msgid "Original file"
+msgstr "Oprindelig fil"
+
+#: libcore/FileConflictDialog.vala:147 libcore/FileConflictDialog.vala:185
+msgid "Last modified:"
+msgstr "Sidst ændret:"
+
+#: libcore/FileConflictDialog.vala:161
+msgid "Replace with"
+msgstr "Erstat med"
+
+#: libcore/FileConflictDialog.vala:199
+msgid "Reset"
+msgstr "Nulstil"
+
+#: libcore/FileConflictDialog.vala:211
+msgid "_Select a new name for the destination"
+msgstr "_Vælg et nyt navn til destinationen"
+
+#: libcore/FileConflictDialog.vala:214
+msgid "Apply this action to all files"
+msgstr "Udfør denne handling på alle filer"
+
+#: libcore/FileConflictDialog.vala:216 libcore/StockDialogs.vala:22
+msgid "_Skip"
+msgstr "_Spring over"
+
+#: libcore/FileConflictDialog.vala:217
+msgid "Re_name"
+msgstr "_Omdøb"
+
+#: libcore/FileConflictDialog.vala:221
+msgid "Keep Newest"
+msgstr "Behold Nyeste"
+
+#: libcore/FileConflictDialog.vala:222
+msgid "Skip if original was modified more recently"
+msgstr "Spring over, hvis originalen blev ændret senere"
+
+#: libcore/FileConflictDialog.vala:224
+msgid "Replace"
+msgstr "Erstat"
+
+#: libcore/FileConflictDialog.vala:340
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr "Flet mappen \"%s\"?"
+
+#: libcore/FileConflictDialog.vala:341
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"Ved fletning vil der blive bedt om bekræftelse før der overskrives filer i "
+"mappen, som er i konflikt med dem, der flyttes."
+
+#: libcore/FileConflictDialog.vala:343
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr "En ældre mappe med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:345
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr "En nyere mappe med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:347
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr "En anden mappe med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:350
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr "Erstat mappen \"%s\"?"
+
+#: libcore/FileConflictDialog.vala:351
+msgid "Replacing it will remove all files in the folder."
+msgstr "Ved erstatning vil alle filer i mappen blive fjernet."
+
+#: libcore/FileConflictDialog.vala:352
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr "En mappe med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:355
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "Erstat filen \"%s\"?"
+
+#: libcore/FileConflictDialog.vala:356
+msgid "Replacing it will overwrite its content."
+msgstr "Ved erstatning vil dens indhold blive overskrevet."
+
+#: libcore/FileConflictDialog.vala:359
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr "En ældre fil med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:361
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr "En nyere fil med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:363
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "En anden fil med det samme navn findes allerede i \"%s\"."
+
+#: libcore/FileConflictDialog.vala:389
+msgid "Merge"
+msgstr "Flet"
+
+#: libcore/FileUtils.vala:89
+#, c-format
+msgid "Could not determine original location of \"%s\" "
+msgstr "Kunne ikke bestemme den originale placering af \"%s\" "
+
+#: libcore/FileUtils.vala:90
+msgid "The item cannot be restored from trash"
+msgstr "Elementet kan ikke genskabes fra papirkurven"
+
+#: libcore/FileUtils.vala:472
+#, c-format
+msgid "Could not rename to '%s'"
+msgstr "Kunne ikke omdøbe til \"%s\""
+
+#. TRANSLATORS '%s' is a placeholder for the time. It may be moved but not changed.
+#: libcore/FileUtils.vala:561
+#, c-format
+msgid "Today at %s"
+msgstr "I dag kl. %s"
+
+#. TRANSLATORS '%s' is a placeholder for the time. It may be moved but not changed.
+#: libcore/FileUtils.vala:569
+#, c-format
+msgid "Yesterday at %s"
+msgstr "I går kl. %s"
+
+#. TRANSLATORS '%%A' is a placeholder for the day name, '%s' is a placeholder for the time. These may be moved and reordered but not changed.
+#: libcore/FileUtils.vala:577
+#, c-format
+msgid "%%A at %s"
+msgstr "%%A kl. %s"
+
+#: libcore/gof-directory-async.vala:690
+msgid "Server did not respond within time limit"
+msgstr "Serveren svarede ikke indenfor tidsgrænsen"
+
+#: libcore/ProgressInfo.vala:29 libcore/ProgressInfo.vala:30
+#: libcore/ProgressInfo.vala:31
+msgid "Preparing"
+msgstr "Forbereder"
+
+#: libcore/StockDialogs.vala:20
+msgid "_Cancel"
+msgstr "_Annuller"
+
+#: libcore/StockDialogs.vala:21
+msgid "Delete"
+msgstr "Slet"
+
+#: libcore/StockDialogs.vala:23
+msgid "S_kip All"
+msgstr "Spring _alle over"
+
+#: libcore/StockDialogs.vala:24
+msgid "_Retry"
+msgstr "_Prøv igen"
+
+#: libcore/StockDialogs.vala:25
+msgid "Delete _All"
+msgstr "Slet _alle"
+
+#: libcore/StockDialogs.vala:26
+msgid "_Replace"
+msgstr "_Erstat"
+
+#: libcore/StockDialogs.vala:27
+msgid "Replace _All"
+msgstr "Erstat _alle"
+
+#: libcore/StockDialogs.vala:28
+msgid "_Merge"
+msgstr "_Flet"
+
+#: libcore/StockDialogs.vala:29
+msgid "Merge _All"
+msgstr "Flet _alle"
+
+#: libcore/StockDialogs.vala:30
+msgid "Copy _Anyway"
+msgstr "Kopiér _alligevel"
+
+#: libcore/UndoManager.vala:310
+msgid "Original location could not be determined"
+msgstr "Kunne ikke fastslå original placering"
+
+#: libcore/UndoManager.vala:311
+msgid "Open trash folder and restore manually"
+msgstr "Åbn papirkurven og gendan manuelt"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:40
+msgid "Permanently delete all items from Trash?"
+msgstr "Slet alle elementer fra papirkurven permanent?"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:41
+msgid ""
+"All items in all trash directories, including those on any mounted external "
+"drives, will be permanently deleted."
+msgstr ""
+"Alle elementer i papirkurven, inklusiv dem der er på eksterne monterede "
+"drev, vil blive slettet permanent."
+
+#: libcore/FileOperations/EmptyTrashJob.vala:44
+msgid "Permanently delete all items from Trash on this mount?"
+msgstr "Slet alle elementer fra papirkurven på dette drev?"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:45
+msgid "All items in the trash on this mount, will be permanently deleted."
+msgstr ""
+"Alle elementer i papirkurven på dette drev, vil blive slettet permanent."
+
+#: libcore/FileOperations/EmptyTrashJob.vala:104
+msgid "Emptying Trash"
+msgstr "Tømmer papirkurven"
+
+#: libcore/FileOperations/MountUtils.vala:26
+#, c-format
+msgid "Unable to mount '%s'"
+msgstr "Kan ikke montere '%s'"
+
+#: libcore/marlin-file-operations.c:150
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d sekund"
+msgstr[1] "%'d sekunder"
+
+#: libcore/marlin-file-operations.c:159 libcore/marlin-file-operations.c:173
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d minut"
+msgstr[1] "%'d minutter"
+
+#: libcore/marlin-file-operations.c:172
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d time"
+msgstr[1] "%'d timer"
+
+#: libcore/marlin-file-operations.c:184
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "ca. %'d time"
+msgstr[1] "ca. %'d timer"
+
+#: libcore/marlin-file-operations.c:260
+#, c-format
+msgid "Link to %s"
+msgstr "Henvisning til %s"
+
+#: libcore/marlin-file-operations.c:264
+#, c-format
+msgid "Another link to %s"
+msgstr "En anden henvisning til %s"
+
+#: libcore/marlin-file-operations.c:280
+#, c-format
+msgid "%'dst link to %s"
+msgstr "%'d. henvisning til %s"
+
+#: libcore/marlin-file-operations.c:284
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "%'d. henvisning til %s"
+
+#: libcore/marlin-file-operations.c:288
+#, c-format
+msgid "%'drd link to %s"
+msgstr "%'d. henvisning til %s"
+
+#: libcore/marlin-file-operations.c:292
+#, c-format
+msgid "%'dth link to %s"
+msgstr "%'d. henvisning til %s"
+
+#: libcore/marlin-file-operations.c:484
+msgid " ("
+msgstr " ("
+
+#: libcore/marlin-file-operations.c:492
+#, c-format
+msgid " (%'d"
+msgstr " (%'d"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1047
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\" from the trash?"
+msgstr "Er du sikker på at du vil slette \"%s\" permanent fra papirkurven?"
+
+#: libcore/marlin-file-operations.c:1051
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] ""
+"Er du sikker på at du vil slette %'d valgt element fra papirkurven permanent?"
+msgstr[1] ""
+"Er du sikker på at du vil slette de %'d valgte elementer fra papirkurven "
+"permanent?"
+
+#: libcore/marlin-file-operations.c:1061
+msgid "If you delete an item, it will be permanently lost."
+msgstr "Hvis du sletter et element, vil det gå tabt permanent."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1087
+#, c-format
+msgid "Permanently delete “%s”?"
+msgstr "Slet \"%s\" permanent?"
+
+#: libcore/marlin-file-operations.c:1090
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] "Er du sikker på, at du permanent vil slette %'d valgt element?"
+msgstr[1] ""
+"Er du sikker på, at du permanent vil slette de %'d valgte elementer?"
+
+#: libcore/marlin-file-operations.c:1099
+msgid "Deleted items are not sent to Trash and are not recoverable."
+msgstr ""
+"Slettede genstande er ikke flyttet til Papirkurven, og kan ikke genskabes."
+
+#: libcore/marlin-file-operations.c:1133
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "%'d resterende fil at slette"
+msgstr[1] "%'d resterende filer at slette"
+
+#: libcore/marlin-file-operations.c:1138
+msgid "Deleting files"
+msgstr "Sletter filer"
+
+#. TRANSLATORS: %s will expand to a time like "2 minutes". It must not be translated or removed.
+#. The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
+#: libcore/marlin-file-operations.c:1153
+#, c-format
+msgid "%s left"
+msgid_plural "%s left"
+msgstr[0] "%s tilbage"
+msgstr[1] "%s tilbage"
+
+#: libcore/marlin-file-operations.c:1222 libcore/marlin-file-operations.c:1262
+#: libcore/marlin-file-operations.c:1308 libcore/marlin-file-operations.c:1390
+#: libcore/marlin-file-operations.c:1897
+msgid "Error while deleting."
+msgstr "Fejl ved sletning."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1228
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr ""
+"Filerne i mappen \"%s\" kan ikke slettes fordi du ikke har tilladelse til at "
+"se dem."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1233 libcore/marlin-file-operations.c:1961
+#: libcore/marlin-file-operations.c:3038
+#, c-format
+msgid ""
+"There was an error getting information about the files in the folder \"%s\"."
+msgstr ""
+"Der opstod en fejl ved indhenting af informationer om filerne i mappen \"%s"
+"\"."
+
+#: libcore/marlin-file-operations.c:1243 libcore/marlin-file-operations.c:3048
+msgid "_Skip files"
+msgstr "_Spring filer over"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1267
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr ""
+"Mappen \"%s\" kan ikke slettes fordi du ikke har tilladelse til at læse den."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1272 libcore/marlin-file-operations.c:2006
+#: libcore/marlin-file-operations.c:3090
+#, c-format
+msgid "There was an error reading the folder \"%s\"."
+msgstr "Der opstod en fejl under læsning af mappen \"%s\"."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1311
+#, c-format
+msgid "Could not remove the folder %s."
+msgstr "Kunne ikke fjerne mappen %s."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1393
+#, c-format
+msgid "There was an error deleting %s."
+msgstr "Der opstod en fejl under sletning af %s."
+
+#: libcore/marlin-file-operations.c:1478
+msgid "Moving files to trash"
+msgstr "Flytter filer til papirkurven"
+
+#: libcore/marlin-file-operations.c:1480
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "%'d fil tilbage at smide i papirkurv"
+msgstr[1] "%'d filer tilbage at smide i papirkurv"
+
+#: libcore/marlin-file-operations.c:1578 libcore/marlin-file-operations.c:1581
+#: libcore/marlin-file-operations.c:1584
+msgid "Cannot move file to trash or delete it"
+msgstr "Kan ikke flytte filen til papirkurven eller slette den"
+
+#: libcore/marlin-file-operations.c:1579
+msgid "It is not permitted to trash or delete files on a read only filesystem."
+msgstr "Det er ikke tilladt at slette filer på et skrivebeskyttet filsystem."
+
+#: libcore/marlin-file-operations.c:1582
+msgid ""
+"It is not permitted to trash or delete files inside folders for which you do "
+"not have write privileges."
+msgstr ""
+"Det er ikke tilladt at slette filer i mapper du ikke har skrivetilladelse "
+"til."
+
+#: libcore/marlin-file-operations.c:1585
+msgid ""
+"It is not permitted to trash or delete folders for which you do not have "
+"write privileges."
+msgstr "Det er ikke tilladt at slette mapper du ikke har skrivetilladelse til."
+
+#: libcore/marlin-file-operations.c:1587
+msgid "Cannot move file to trash. Try to delete it immediately?"
+msgstr ""
+"Kan ikke flytte filen til papirkurven. Prøv at slette den med det samme?"
+
+#: libcore/marlin-file-operations.c:1588
+msgid ""
+"This file could not be moved to trash. See details below for further "
+"information."
+msgstr ""
+"Filen kunne ikke flyttes til papirkurven. Se detaljer nedenfor for "
+"yderligere information."
+
+#: libcore/marlin-file-operations.c:1592
+msgid "Cannot move file to trash.  Try to delete it?"
+msgstr "Kan ikke flytte filen til papirkurven. Prøv at slette den?"
+
+#: libcore/marlin-file-operations.c:1593
+msgid ""
+"This file could not be moved to trash. You may not be able to delete it "
+"either."
+msgstr ""
+"Denne fil kunne ikke flyttes til papirkurven. Du kan muligvis heller ikke "
+"slette den."
+
+#: libcore/marlin-file-operations.c:1599
+msgid ""
+"\n"
+" Deleting a file removes it permanently"
+msgstr ""
+"\n"
+" Sletning af en fil fjerner den permanent"
+
+#: libcore/marlin-file-operations.c:1789
+msgid "Trashing Files"
+msgstr "Flytter filer til papirkurven"
+
+#: libcore/marlin-file-operations.c:1791
+msgid "Deleting Files"
+msgstr "Sletter filer"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to copy 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/marlin-file-operations.c:1831
+#, c-format
+msgid "Preparing to copy %'d file (%s)"
+msgid_plural "Preparing to copy %'d files (%s)"
+msgstr[0] "Forbereder kopiering af %'d fil (%s)"
+msgstr[1] "Forbereder kopiering af %'d filer (%s)"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to move 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/marlin-file-operations.c:1843
+#, c-format
+msgid "Preparing to move %'d file (%s)"
+msgid_plural "Preparing to move %'d files (%s)"
+msgstr[0] "Forbereder flytning af %'d fil (%s)"
+msgstr[1] "Forbereder flytning af %'d filer (%s)"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to delete 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/marlin-file-operations.c:1855
+#, c-format
+msgid "Preparing to delete %'d file (%s)"
+msgid_plural "Preparing to delete %'d files (%s)"
+msgstr[0] "Forbereder sletning af %'d fil (%s)"
+msgstr[1] "Forbereder sletning af %'d filer (%s)"
+
+#: libcore/marlin-file-operations.c:1862
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "Forbereder kassering af %'d fil"
+msgstr[1] "Forbereder kassering af %'d filer"
+
+#: libcore/marlin-file-operations.c:1893 libcore/marlin-file-operations.c:2885
+#: libcore/marlin-file-operations.c:3025 libcore/marlin-file-operations.c:3077
+msgid "Error while copying."
+msgstr "Fejl ved kopiering."
+
+#: libcore/marlin-file-operations.c:1895 libcore/marlin-file-operations.c:3023
+#: libcore/marlin-file-operations.c:3075
+msgid "Error while moving."
+msgstr "Fejl ved flytning."
+
+#: libcore/marlin-file-operations.c:1899
+msgid "Error while moving files to trash."
+msgstr "Fejl ved flytning af filer til papirkurven."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1956
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr ""
+"Filer i mappen \"%s\" kan ikke håndteres fordi du ikke har tilladelse til at "
+"se dem."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2001
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+"Mappen \"%s\" kan ikke håndteres fordi du ikke har tilladelse til at læse "
+"den."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2088
+#, c-format
+msgid ""
+"The file \"%s\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+"Filen \"%s\" kan ikke håndteres fordi du ikke har tilladelse til at læse den."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2093
+#, c-format
+msgid "There was an error getting information about \"%s\"."
+msgstr "Der opstod en fejl ved indhentning af information om \"%s\"."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2199 libcore/marlin-file-operations.c:2245
+#: libcore/marlin-file-operations.c:2283 libcore/marlin-file-operations.c:2323
+#, c-format
+msgid "Error while copying to \"%s\"."
+msgstr "Fejl ved kopiering til \"%s\"."
+
+#: libcore/marlin-file-operations.c:2204
+msgid "You do not have permissions to access the destination folder."
+msgstr "Du har ikke tilladelse til at tilgå destinationsmappen."
+
+#: libcore/marlin-file-operations.c:2206
+msgid "There was an error getting information about the destination."
+msgstr "Der opstod en fejl ved indhentning af information om destinationen."
+
+#: libcore/marlin-file-operations.c:2246
+msgid "The destination is not a folder."
+msgstr "Destinationen er ikke en mappe."
+
+#: libcore/marlin-file-operations.c:2285
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr ""
+"Der er ikke tilstrækkelig plads på destinationen. Prøv at fjerne filer for "
+"at gøre plads."
+
+#. TRANSLATORS: %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "There is 100 MB available, but 150 MB is required".
+#: libcore/marlin-file-operations.c:2291
+#, c-format
+msgid "There is %s available, but %s is required."
+msgstr "Der er %s tilgængelig, men %s kræves."
+
+#: libcore/marlin-file-operations.c:2325
+msgid "The destination is read-only."
+msgstr "Destinationen er skrivebeskyttet."
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/marlin-file-operations.c:2397
+#, c-format
+msgid "Moving \"%s\" to \"%s\""
+msgstr "Flytter \"%s\" til \"%s\""
+
+#: libcore/marlin-file-operations.c:2398
+#, c-format
+msgid "Copying \"%s\" to \"%s\""
+msgstr "Kopierer \"%s\" til \"%s\""
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/marlin-file-operations.c:2402
+#, c-format
+msgid "Duplicating \"%s\""
+msgstr "Duplikerer \"%s\""
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#. %'d is a placeholder for a number. It must not be translated or removed.
+#. Placeholders must appear in the same order but otherwise may change position.
+#: libcore/marlin-file-operations.c:2410
+#, c-format
+msgid "Moving %'d file (in \"%s\") to \"%s\""
+msgid_plural "Moving %'d files (in \"%s\") to \"%s\""
+msgstr[0] "Flytter %'d fil (i \"%s\") til \"%s\""
+msgstr[1] "Flytter %'d filer (i \"%s\") til \"%s\""
+
+#: libcore/marlin-file-operations.c:2413
+#, c-format
+msgid "Copying %'d file (in \"%s\") to \"%s\""
+msgid_plural "Copying %'d files (in \"%s\") to \"%s\""
+msgstr[0] "Kopierer %'d fil (i \"%s\") til \"%s\""
+msgstr[1] "Kopierer %'d filer (i \"%s\") til \"%s\""
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/marlin-file-operations.c:2422
+#, c-format
+msgid "Duplicating %'d file (in \"%s\")"
+msgid_plural "Duplicating %'d files (in \"%s\")"
+msgstr[0] "Duplikerer %'d fil (i \"%s\")"
+msgstr[1] "Duplikerer %'d filer (i \"%s\")"
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#. %'d is a placeholder for a number. It must not be translated or removed.
+#. Placeholders must appear in the same order but otherwise may change position.
+#: libcore/marlin-file-operations.c:2434
+#, c-format
+msgid "Moving %'d file to \"%s\""
+msgid_plural "Moving %'d files to \"%s\""
+msgstr[0] "Flytter %'d fil til \"%s\""
+msgstr[1] "Flytter %'d filer til \"%s\""
+
+#: libcore/marlin-file-operations.c:2437
+#, c-format
+msgid "Copying %'d file to \"%s\""
+msgid_plural "Copying %'d files to \"%s\""
+msgstr[0] "Kopierer %'d fil til \"%s\""
+msgstr[1] "Kopierer %'d filer til \"%s\""
+
+#: libcore/marlin-file-operations.c:2443
+#, c-format
+msgid "Duplicating %'d file"
+msgid_plural "Duplicating %'d files"
+msgstr[0] "Duplikerer %'d fil"
+msgstr[1] "Duplikerer %'d filer"
+
+#. TRANSLATORS: %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed. So this represents something like "4 kb of 4 MB".
+#: libcore/marlin-file-operations.c:2473
+#, c-format
+msgid "%s of %s"
+msgstr "%s af %s"
+
+#. TRANSLATORS: The two first %s and the last %s will expand to a size
+#. like "2 bytes" or "3 MB", the third %s to a time duration like
+#. "2 minutes". It must not be translated or removed.
+#. So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. The singular/plural form will be used depending on the remaining time (i.e. the "%s left" part).
+#. The order in which %s appear can be changed by using the right positional specifier.
+#: libcore/marlin-file-operations.c:2493
+#, c-format
+msgid "%s of %s — %s left (%s/sec)"
+msgid_plural "%s of %s — %s left (%s/sec)"
+msgstr[0] "%s af %s - %s tilbage (%s/sek)"
+msgstr[1] "%s af %s - %s tilbage (%s/sek)"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2892
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+"Mappen \"%s\" kan ikke kopieres fordi du ikke har tilladelse til at oprette "
+"den på destinationen."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:2897
+#, c-format
+msgid "There was an error creating the folder \"%s\"."
+msgstr "Der opstod en fejl under oprettelse af mappen \"%s\"."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:3033
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+"Filer i mappen \"%s\" kan ikke kopieres fordi du ikke har tilladelse til at "
+"se dem."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:3085
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr ""
+"Mappen \"%s\" kan ikke kopieres fordi du ikke har tilladelse til at læse den."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted full path of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:3138 libcore/marlin-file-operations.c:3870
+#: libcore/marlin-file-operations.c:4438
+#, c-format
+msgid "Error while moving \"%s\"."
+msgstr "Fejl ved flytning af \"%s\"."
+
+#: libcore/marlin-file-operations.c:3140
+msgid "Could not remove the source folder."
+msgstr "Kunne ikke fjerne kildemappen."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:3229 libcore/marlin-file-operations.c:3280
+#: libcore/marlin-file-operations.c:3874
+#, c-format
+msgid "Error while copying \"%s\"."
+msgstr "Fejl ved kopiering af \"%s\"."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3234
+#, c-format
+msgid "Could not remove files from the already existing folder %s."
+msgstr "Kunne ikke fjerne filer fra den allerede eksisterende mappe %s."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3285
+#, c-format
+msgid "Could not remove the already existing file %s."
+msgstr "Kunne ikke fjerne den allerede eksisterende fil %s."
+
+#: libcore/marlin-file-operations.c:3603 libcore/marlin-file-operations.c:4277
+msgid "You cannot move a folder into itself."
+msgstr "Du kan ikke flytte en mappe ind i den selv."
+
+#: libcore/marlin-file-operations.c:3604 libcore/marlin-file-operations.c:4278
+msgid "You cannot copy a folder into itself."
+msgstr "Du kan ikke kopiere en mappe ind i den selv."
+
+#: libcore/marlin-file-operations.c:3605 libcore/marlin-file-operations.c:4279
+msgid "The destination folder is inside the source folder."
+msgstr "Destinationsmappen er inden i kildemappen."
+
+#: libcore/marlin-file-operations.c:3636
+msgid "You cannot move a file over itself."
+msgstr "Du kan ikke flytte en fil ind i den selv."
+
+#: libcore/marlin-file-operations.c:3637
+msgid "You cannot copy a file over itself."
+msgstr "Du kan ikke kopiere en fil ind i den selv."
+
+#: libcore/marlin-file-operations.c:3638
+msgid "The source file would be overwritten by the destination."
+msgstr "Kildefilen ville blive overskrevet af destinationen."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3880
+#, c-format
+msgid "Could not remove the already existing file with the same name in %s."
+msgstr ""
+"Kunne ikke fjerne den allerede eksisterende fil med det samme navn i %s."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:3950
+#, c-format
+msgid "Cannot copy \"%s\" here."
+msgstr "Kan ikke kopiere \"%s\" hertil."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3955
+#, c-format
+msgid "There was an error copying the file into %s."
+msgstr "Der opstod en fejl under kopiering af filen til %s."
+
+#: libcore/marlin-file-operations.c:4157
+msgid "Copying Files"
+msgstr "Kopierer filer"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:4193
+#, c-format
+msgid "Preparing to move to \"%s\""
+msgstr "Forbereder flytning til \"%s\""
+
+#: libcore/marlin-file-operations.c:4198
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "Forbereder flytning af %'d fil"
+msgstr[1] "Forbereder flytning af %'d filer"
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:4442
+#, c-format
+msgid "There was an error moving the file into %s."
+msgstr "Der opstod en fejl under flytning af filen ind i %s."
+
+#: libcore/marlin-file-operations.c:4676
+msgid "Moving Files"
+msgstr "Flytter filer"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:4715
+#, c-format
+msgid "Creating links in \"%s\""
+msgstr "Opretter henvisninger i \"%s\""
+
+#: libcore/marlin-file-operations.c:4720
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "Opretter henvisning til %'d fil"
+msgstr[1] "Opretter henvisninger til %'d filer"
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:4857
+#, c-format
+msgid "Error while creating link to %s."
+msgstr "Fejl ved oprettelse af henvisning til %s."
+
+#: libcore/marlin-file-operations.c:4860
+msgid "Symbolic links only supported for local files"
+msgstr "Symbolske henvisninger understøttes kun for lokale filer"
+
+#: libcore/marlin-file-operations.c:4863
+msgid "The target doesn't support symbolic links."
+msgstr "Destinationen understøtter ikke symbolske henvisninger."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:4868
+#, c-format
+msgid "There was an error creating the symlink in %s."
+msgstr "Der opstod en fejl under oprettelse af den symbolske henvisning i %s."
+
+#: libcore/marlin-file-operations.c:5171
+msgid "Setting permissions"
+msgstr "Ændrer tilladelser"
+
+#: libcore/marlin-file-operations.c:5360
+msgid "Cannot copy into trash."
+msgstr "Kan ikke kopiere til papirkurven."
+
+#: libcore/marlin-file-operations.c:5361 libcore/marlin-file-operations.c:5369
+msgid "It is not permitted to copy files into the trash"
+msgstr "Det er ikke tilladt at kopiere filer til papirkurven"
+
+#: libcore/marlin-file-operations.c:5505
+msgid "untitled folder"
+msgstr "mappe uden navn"
+
+#: libcore/marlin-file-operations.c:5513
+msgid "new file"
+msgstr "ny fil"
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:5680
+#, c-format
+msgid "Error while creating directory %s."
+msgstr "Fejl ved oprettelse af mappen %s."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:5683
+#, c-format
+msgid "Error while creating file %s."
+msgstr "Fejl ved oprettelse af filen %s."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:5689
+#, c-format
+msgid "There was an error creating the directory in %s."
+msgstr "Der opstod en fejl under oprettelse af mappen i %s."
+
+#: libwidgets/Chrome/BasicLocationBar.vala:88
+msgid "Type a path"
+msgstr "Indtast en sti"
+
+#: libwidgets/Chrome/BasicBreadcrumbsEntry.vala:178
+#, c-format
+msgid "Navigate to %s"
+msgstr "Navigér til %s"
+
+#: libwidgets/Chrome/BasicBreadcrumbsEntry.vala:297
+#, c-format
+msgid "Go to %s"
+msgstr "Gå til %s"
+
+#: libwidgets/Chrome/BasicBreadcrumbsEntry.vala:375
+msgid "Type Path"
+msgstr "Vælg en Sti"
+
+#: libwidgets/View/SearchResults.vala:82
+msgid "More Results …"
+msgstr "Flere Resultater…"
+
+#: libwidgets/View/SearchResults.vala:238
+msgid "In This Folder"
+msgstr "I denne mappe"
+
+#: libwidgets/View/SearchResults.vala:243
+msgid "Below This Folder"
+msgstr "Under denne mappe"
+
+#: libwidgets/View/SearchResults.vala:254
+msgid "Recently used"
+msgstr "Senest anvendte"
+
+#: libwidgets/Chrome/ViewSwitcher.vala:34
+msgid "View as Grid"
+msgstr "Vis som gitter"
+
+#: libwidgets/Chrome/ViewSwitcher.vala:41
+msgid "View as List"
+msgstr "Vis som Liste"
+
+#: libwidgets/Chrome/ViewSwitcher.vala:48
+msgid "View in Columns"
+msgstr "Vis i kolonner"
+
+#: libwidgets/Resources.vala:22
+msgid "Files"
+msgstr "Filer"
+
+#: libwidgets/Resources.vala:58
+msgid "AFP"
+msgstr "AFP"
+
+#: libwidgets/Resources.vala:59
+msgid "DAV"
+msgstr "DAV"
+
+#: libwidgets/Resources.vala:60
+msgid "DAVS"
+msgstr "DAVS"
+
+#: libwidgets/Resources.vala:61
+msgid "FTP"
+msgstr "FTP"
+
+#: libwidgets/Resources.vala:63
+msgid "SFTP"
+msgstr "SFTP"
+
+#: libwidgets/Resources.vala:64
+msgid "SMB"
+msgstr "SMB"
+
+#: libwidgets/Resources.vala:66
+msgid "Recent"
+msgstr "Seneste"
+
+#: libwidgets/Resources.vala:67
+msgid "MTP"
+msgstr "MTP"
+
+#: plugins/pantheon-files-trash/plugin.vala:19
+msgid "Restore All"
+msgstr "Gendan alle"
+
+#: plugins/pantheon-files-trash/plugin.vala:20
+msgid "Empty the Trash"
+msgstr "Tøm papirkurven"
+
+#: plugins/pantheon-files-trash/plugin.vala:21
+msgid "Restore Selected"
+msgstr "Gendan Valgte"
+
+#: plugins/pantheon-files-trash/plugin.vala:22
+msgid "Delete Selected"
+msgstr "Slet Valgte"
+
+#~ msgid "(%s Free of %s)"
+#~ msgstr "(%s ledig ud af %s)"
+
+#~ msgid "Bookmark"
+#~ msgstr "Bogmærke"
+
+#~ msgid "Personal"
+#~ msgstr "Personlig"
+
+#~ msgid "Your common places and bookmarks"
+#~ msgstr "Dine almindelige steder og bogmærker"
+
+#~ msgid "Your network places"
+#~ msgstr "Dine netværkssteder"
+
+#~ msgid "Your local partitions and devices"
+#~ msgstr "Dine lokale partitioner og enheder"
+
+#~ msgid "Delete %d copied items"
+#~ msgstr "Slet %d kopierede elementer"
+
+#~ msgid "Delete '%s'"
+#~ msgstr "Slet \"%s\""
+
+#~ msgid "Delete %d duplicated items"
+#~ msgstr "Slet %d redundante elementer"
+
+#~ msgid "Move %d items back to '%s'"
+#~ msgstr "Flyt %d elementer tilbage til \"%s\""
+
+#~ msgid "Move '%s' back to '%s'"
+#~ msgstr "Flyt \"%s\" tilbage til \"%s\""
+
+#~ msgid "Rename '%s' as '%s'"
+#~ msgstr "Omdøb \"%s\" til \"%s\""
+
+#~ msgid "Restore %d items from trash"
+#~ msgstr "Gendan %d elementer fra papirkurven"
+
+#~ msgid "Restore '%s' to '%s'"
+#~ msgstr "Gendan \"%s\" til \"%s\""
+
+#~ msgid "Move %d items back to trash"
+#~ msgstr "Flyt %d elementer tilbage til papirkurv"
+
+#~ msgid "Move '%s' back to trash"
+#~ msgstr "Flyt \"%s\" tilbage til papirkurven"
+
+#~ msgid "Delete links to %d items"
+#~ msgstr "Slet henvisninger til %d elementer"
+
+#~ msgid "Delete link to '%s'"
+#~ msgstr "Slet henvisning til \"%s\""
+
+#~ msgid "Restore original permissions of items enclosed in '%s'"
+#~ msgstr "Genopret oprindelige rettigheder af elementerne indeholdt i \"%s\""
+
+#~ msgid "Restore original permissions of '%s'"
+#~ msgstr "Gendan de oprindelige tilladelser for \"%s\""
+
+#~ msgid "Restore group of '%s' to '%s'"
+#~ msgstr "Gendan gruppen for \"%s\" til \"%s\""
+
+#~ msgid "Restore owner of '%s' to '%s'"
+#~ msgstr "Gendan ejer af \"%s\" til \"%s\""
+
+#~ msgid "Copy %d items to '%s'"
+#~ msgstr "Kopiér %d elementer til \"%s\""
+
+#~ msgid "Copy '%s' to '%s'"
+#~ msgstr "Kopiér \"%s\" til \"%s\""
+
+#~ msgid "Duplicate of %d items in '%s'"
+#~ msgstr "%d redundante elementer i \"%s\""
+
+#~ msgid "Duplicate '%s' in '%s'"
+#~ msgstr "Duplikér \"%s\" i \"%s\""
+
+#~ msgid "Move %d items to '%s'"
+#~ msgstr "Flyt %d elementer til \"%s\""
+
+#~ msgid "Move '%s' to '%s'"
+#~ msgstr "Flyt \"%s\" til \"%s\""
+
+#~ msgid "Create new file '%s' from template "
+#~ msgstr "Opret ny fil \"%s\" fra skabelon "
+
+#~ msgid "Create an empty file '%s'"
+#~ msgstr "Opret tom fil \"%s\""
+
+#~ msgid "Create a new folder '%s'"
+#~ msgstr "Opret ny mappe \"%s\""
+
+#~ msgid "Move %d items to trash"
+#~ msgstr "Flyt %d elementer til papirkurven"
+
+#~ msgid "Move '%s' to trash"
+#~ msgstr "Flyt \"%s\" til papirkurven"
+
+#~ msgid "Restore '%s' from trash"
+#~ msgstr "Gendan \"%s\" fra papirkurven"
+
+#~ msgid "Create links to %d items"
+#~ msgstr "Opret henvisning til %d elementer"
+
+#~ msgid "Create link to '%s'"
+#~ msgstr "Opret henvisning til \"%s\""
+
+#~ msgid "Set permissions of items enclosed in '%s'"
+#~ msgstr "Angiv tilladelserne for elementerne inkluderet i \"%s\""
+
+#~ msgid "Set permissions of '%s'"
+#~ msgstr "Angiv tilladelser for \"%s\""
+
+#~ msgid "Set group of '%s' to '%s'"
+#~ msgstr "Sæt gruppen for \"%s\" til \"%s\""
+
+#~ msgid "Set owner of '%s' to '%s'"
+#~ msgstr "Sæt ejeren af \"%s\" til \"%s\""
+
+#~ msgid "_Undo copy of %d item"
+#~ msgid_plural "_Undo copy of %d items"
+#~ msgstr[0] "_Fortryd kopiering af %d element"
+#~ msgstr[1] "_Fortryd kopiering af %d elementer"
+
+#~ msgid "_Undo duplicate of %d item"
+#~ msgid_plural "_Undo duplicate of %d items"
+#~ msgstr[0] "_Fortryd duplikering af %d element"
+#~ msgstr[1] "_Fortryd duplikering af %d elementer"
+
+#~ msgid "_Undo move of %d item"
+#~ msgid_plural "_Undo move of %d items"
+#~ msgstr[0] "_Fortryd flytning af %d element"
+#~ msgstr[1] "_Fortryd flytning af %d elementer"
+
+#~ msgid "_Undo rename of %d item"
+#~ msgid_plural "_Undo rename of %d items"
+#~ msgstr[0] "_Fortryd omdøbning af %d element"
+#~ msgstr[1] "_Fortryd omdøbning af %d elementer"
+
+#~ msgid "_Undo creation of an empty file"
+#~ msgstr "_Fortryd oprettelse af tom fil"
+
+#~ msgid "_Undo creation of a file from template"
+#~ msgstr "_Fotryd oprettelse af fil fra skabelon"
+
+#~ msgid "_Undo creation of %d folder"
+#~ msgid_plural "_Undo creation of %d folders"
+#~ msgstr[0] "_Fortryd oprettelse af %d mappe"
+#~ msgstr[1] "_Fortryd oprettelse af %d mapper"
+
+#~ msgid "_Undo move to trash of %d item"
+#~ msgid_plural "_Undo move to trash of %d items"
+#~ msgstr[0] "_Fortryd flytning af %d element til papirkurven"
+#~ msgstr[1] "_Fortryd flytning af %d elementer til papirkurven"
+
+#~ msgid "_Undo restore from trash of %d item"
+#~ msgid_plural "_Undo restore from trash of %d items"
+#~ msgstr[0] "_Fortryd gendannelse af %d element fra papirkurven"
+#~ msgstr[1] "_Fortryd gendannelse af %d elementer fra papirkurven"
+
+#~ msgid "_Undo create link to %d item"
+#~ msgid_plural "_Undo create link to %d items"
+#~ msgstr[0] "_Fortryd oprettelse af henvisning til %d element"
+#~ msgstr[1] "_Fortryd oprettelse af henvisninger til %d elementer"
+
+#~ msgid "_Undo delete of %d item"
+#~ msgid_plural "_Undo delete of %d items"
+#~ msgstr[0] "_Fortryd sletning af %d element"
+#~ msgstr[1] "_Fortryd sletning af %d elementer"
+
+#~ msgid "Undo recursive change permissions of %d item"
+#~ msgid_plural "Undo recursive change permissions of %d items"
+#~ msgstr[0] "Fortryd rekursiv tilladelsesændring for %d element"
+#~ msgstr[1] "Fortryd rekursiv rettighedsændring for %d elementer"
+
+#~ msgid "Undo change permissions of %d item"
+#~ msgid_plural "Undo change permissions of %d items"
+#~ msgstr[0] "Fortryd ændring af tilladelser på %d element"
+#~ msgstr[1] "Fortryd ændring af tilladelser på %d elementer"
+
+#~ msgid "Undo change group of %d item"
+#~ msgid_plural "Undo change group of %d items"
+#~ msgstr[0] "Fortryd ændring af gruppe for %d element"
+#~ msgstr[1] "Fortryd ændring af gruppe for %d elementer"
+
+#~ msgid "Undo change owner of %d item"
+#~ msgid_plural "Undo change owner of %d items"
+#~ msgstr[0] "Fortryd ændring af ejer for %d element"
+#~ msgstr[1] "Fortryd ændring af ejer for %d elementer"
+
+#~ msgid "_Redo copy of %d item"
+#~ msgid_plural "_Redo copy of %d items"
+#~ msgstr[0] "_Gentag kopiering af %d element"
+#~ msgstr[1] "_Gentag kopiering af %d elementer"
+
+#~ msgid "_Redo duplicate of %d item"
+#~ msgid_plural "_Redo duplicate of %d items"
+#~ msgstr[0] "_Gentag duplikering af %d element"
+#~ msgstr[1] "_Gentag duplikering af %d elementer"
+
+#~ msgid "_Redo move of %d item"
+#~ msgid_plural "_Redo move of %d items"
+#~ msgstr[0] "_Gentag flytning af %d element"
+#~ msgstr[1] "_Gentag flytning af %d elementer"
+
+#~ msgid "_Redo rename of %d item"
+#~ msgid_plural "_Redo rename of %d items"
+#~ msgstr[0] "_Gentag omdøbning af %d element"
+#~ msgstr[1] "_Gentag omdøbning af %d elementer"
+
+#~ msgid "_Redo creation of an empty file"
+#~ msgstr "_Gentag oprettelse af tom fil"
+
+#~ msgid "_Redo creation of a file from template"
+#~ msgstr "_Gentag oprettelse af fil fra skabelon"
+
+#~ msgid "_Redo creation of %d folder"
+#~ msgid_plural "_Redo creation of %d folders"
+#~ msgstr[0] "_Gentag oprettelse af %d mappe"
+#~ msgstr[1] "_Gentag oprettelse af %d mapper"
+
+#~ msgid "_Redo move to trash of %d item"
+#~ msgid_plural "_Redo move to trash of %d items"
+#~ msgstr[0] "_Gentag flytning af %d element til papirkurv"
+#~ msgstr[1] "_Gentag flytning af %d elementer til papirkurv"
+
+#~ msgid "_Redo restore from trash of %d item"
+#~ msgid_plural "_Redo restore from trash of %d items"
+#~ msgstr[0] "_Gentag gendannelse af %d element fra papirkurv"
+#~ msgstr[1] "_Gentag gendannelse af %d elementer fra papirkurv"
+
+#~ msgid "_Redo create link to %d item"
+#~ msgid_plural "_Redo create link to %d items"
+#~ msgstr[0] "_Gentag oprettelse af henvisning til %d element"
+#~ msgstr[1] "_Gentag oprettelse af henvisninger til %d elementer"
+
+#~ msgid "_Redo delete of %d item"
+#~ msgid_plural "_Redo delete of %d items"
+#~ msgstr[0] "_Gentag sletning af %d element"
+#~ msgstr[1] "_Gentag sletning af %d elementer"
+
+#~ msgid "Redo recursive change permissions of %d item"
+#~ msgid_plural "Redo recursive change permissions of %d items"
+#~ msgstr[0] "Gentag rekursiv ændring af tilladelserne på %d element"
+#~ msgstr[1] "Gentag rekursiv ændring af tilladelserne på %d elementer"
+
+#~ msgid "Redo change permissions of %d item"
+#~ msgid_plural "Redo change permissions of %d items"
+#~ msgstr[0] "Gentag ændring af tilladelserne på %d element"
+#~ msgstr[1] "Gentag ændring af tilladelserne på %d elementer"
+
+#~ msgid "Redo change group of %d item"
+#~ msgid_plural "Redo change group of %d items"
+#~ msgstr[0] "_Gentag ændring af gruppe for %d element"
+#~ msgstr[1] "_Gentag ændring af gruppe for %d elementer"
+
+#~ msgid "Redo change owner of %d item"
+#~ msgid_plural "Redo change owner of %d items"
+#~ msgstr[0] "_Gentag ændring af ejer for %d element"
+#~ msgstr[1] "_Gentag ændring af ejer for %d elementer"
+
+#, fuzzy
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Er du sikker på at du permanent vil slette \"%B\"?"
+
+#~ msgid "Invalid"
+#~ msgstr "Ugyldig"
+
+#~ msgid "Templates"
+#~ msgstr "Skabeloner"
+
+#~ msgid "Unable to eject %V"
+#~ msgstr "Kan ikke skubbe %V ud"
+
+#~ msgid "Unable to unmount %V"
+#~ msgstr "Kunne ikke afmontere %V"
+
+#~ msgid "Error while moving \"%F\"."
+#~ msgstr "Fejl under flytning af \"%F\"."
+
+#~ msgid "Today at %-I:%M %p"
+#~ msgstr "I dag klokken %H:%M"
+
+#~ msgid "Yesterday at %-I:%M %p"
+#~ msgstr "I går klokken %H:%M"
+
+#~ msgid "%A at %-I:%M %p"
+#~ msgstr "%A kl. %-I:%M"
+
+#~ msgid "Show more _details"
+#~ msgstr "Vis flere _detaljer"
+
+#~ msgid "Inaccessible"
+#~ msgstr "Utilgængelig"
+
+#~ msgid "link to %s"
+#~ msgstr "henvisning til %s"
+
+#~ msgid "Failed to parse the desktop file: %s"
+#~ msgstr "Kunne ikke fortolke desktop filen: %s"
+
+#~ msgid "Failed to parse the desktop file"
+#~ msgstr "Kunne ikke fortolke desktop filen"
+
+#~ msgid "Failed to create command from file: %s"
+#~ msgstr "Kunne ikke oprette kommando fra fil: %s"
+
+#~ msgid "Unable to Launch Desktop File: %s"
+#~ msgstr "Kan ikke Starte Desktopfilen: %s"
+
+#~ msgid " (copy)"
+#~ msgstr " (kopier)"
+
+#~ msgid " (another copy)"
+#~ msgstr " (en anden kopi)"
+
+#~ msgid "th copy)"
+#~ msgstr ". kopi)"
+
+#~ msgid "st copy)"
+#~ msgstr ". kopi)"
+
+#~ msgid "nd copy)"
+#~ msgstr ". kopi)"
+
+#~ msgid "rd copy)"
+#~ msgstr ". kopi)"
+
+#~ msgid "%s (copy)%s"
+#~ msgstr "%s (kopi)%s"
+
+#~ msgid "%s (another copy)%s"
+#~ msgstr "%s (en anden kopi)%s"
+
+#~ msgid "%s (%'dth copy)%s"
+#~ msgstr "%s (%'d. kopi)%s"
+
+#~ msgid "%s (%'dst copy)%s"
+#~ msgstr "%s (%'d. kopi)%s"
+
+#~ msgid "%s (%'dnd copy)%s"
+#~ msgstr "%s (%'d. kopi)%s"
+
+#~ msgid "%s (%'drd copy)%s"
+#~ msgstr "%s (%'d. kopi)%s"
+
+#~ msgid "Browse your files"
+#~ msgstr "Gennemse dine filer"
+
+#~ msgid "File Manager"
+#~ msgstr "Filhåndtering"
+
+#~ msgid "New _Window"
+#~ msgstr "Nyt _vindue"
+
+#~ msgid "New Window As _Administrator"
+#~ msgstr "Nyt vindue som _Administrator"
+
+#~ msgid ""
+#~ "Can't load the supported server method list.\n"
+#~ "Please check your gvfs installation."
+#~ msgstr ""
+#~ "Kan ikke indlæse listen over understøttede servermetoder.\n"
+#~ "Kontrollér venligst din gvfs-installation."
+
+#~ msgid "The folder \"%s\" cannot be opened on \"%s\"."
+#~ msgstr "Mappen \"%s\" kan ikke åbnes på \"%s\"."
+
+#~ msgid "The server at \"%s\" cannot be found."
+#~ msgstr "Serveren på \"%s\" kan ikke findes."
+
+#~ msgid "Try Again"
+#~ msgstr "Forsøg igen"
+
+#~ msgid "_Type:"
+#~ msgstr "_Type:"
+
+#~ msgid "Operation cancelled"
+#~ msgstr "Handlingen blev afbrudt"
+
+#~ msgid "Connect to Server…"
+#~ msgstr "Forbind til server…"
+
+#~ msgid "These items may be restored or deleted from the trash."
+#~ msgstr "Disse elementer kan gendannes eller slettes fra papirkurven."
+
+#~ msgid "Cannot restore or delete unless in root folder"
+#~ msgstr "Kan kun gendanne eller slette fra rodmappen"
+
+#~ msgid "Failed to open uris"
+#~ msgstr "Kunne ikke åbne uri'er"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (ugyldig Unicode)"
+
+#~ msgid "Do you want to empty the trash before you unmount?"
+#~ msgstr "Ønsker du at tømme papirkurven før du afmonterer?"
+
+#~ msgid ""
+#~ "In order to regain the free space on this volume the trash must be "
+#~ "emptied. All trashed items on the volume will be permanently lost."
+#~ msgstr ""
+#~ "For at få den frie plads tilbage på enheden skal papirkurven tømmes. Alle "
+#~ "elementer i papirkurven på denne enhed vil permanent gå tabt."
+
+#~ msgid "Do _not Empty Trash"
+#~ msgstr "Tøm _ikke papirkurven"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Tømmer papirkurven"
+
+#~ msgid "%a %-d %b at %-I:%M %p"
+#~ msgstr "%a %-d. %b kl. %H:%M"
+
+#~ msgid "%a %-d %b %Y at %-I:%M %p"
+#~ msgstr "%a %-d. %b %Y kl. %H:%M"
+
+#~ msgid "No Exec field specified"
+#~ msgstr "Intet 'Exec' felt angivet"
+
+#~ msgid "No URL field specified"
+#~ msgstr "Intet URL-felt angivet"
+
+#~ msgid "Invalid desktop file"
+#~ msgstr "Ugyldig skrivebordsfil"
+
+#~ msgid "Slashes are not allowed in filenames"
+#~ msgstr "Skråstreger er ikke tilladt i filnavne"
+
+#~ msgid "Toplevel files cannot be renamed"
+#~ msgstr "Topniveau-filer kan ikke omdøbes"
+
+#~ msgid "Failed to preview"
+#~ msgstr "Forhåndsvisning fejlede"
+
+#~ msgid "Other Application"
+#~ msgstr "Andet program"
+
+#~ msgid "Enter search term or path"
+#~ msgstr "Indtast søgeterm eller sti"
+
+#~ msgid "Files isn't your default file manager."
+#~ msgstr "Filer er ikke dit standard filhåndteringsprogram."
+
+#~ msgid "Set as Default"
+#~ msgstr "Brug som standard"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorér"
+
+#~ msgid "There is nothing on the clipboard to paste"
+#~ msgstr "Der er intet i udklipsholderen at indsætte"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "About _Files"
+#~ msgstr "Om _Filer"
+
+#~ msgid "Everywhere Else"
+#~ msgstr "Alle andre steder"
+
+#~ msgid "A simple and powerful file manager"
+#~ msgstr "Et simpelt og kraftfuldt filhåndteringsprogram"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Casper Christiansen https://launchpad.net/~fault\n"
+#~ "  Casper Hedegaard https://launchpad.net/~casper-b\n"
+#~ "  Cody Garver https://launchpad.net/~codygarver\n"
+#~ "  Daniel Fore https://launchpad.net/~danrabbit\n"
+#~ "  Jamie Neubert Pedersen https://launchpad.net/~jamieneubert\n"
+#~ "  Jimmy Merrild Krag https://launchpad.net/~beruic\n"
+#~ "  Johnny Poulsen https://launchpad.net/~jp-0\n"
+#~ "  Jonatan Nordentoft https://launchpad.net/~lo\n"
+#~ "  Kasper Steensig Jensen https://launchpad.net/~ksteensig\n"
+#~ "  Kristoffer Andersen https://launchpad.net/~kris24\n"
+#~ "  Mickas Jensen https://launchpad.net/~qrank\n"
+#~ "  Patrick https://launchpad.net/~mangodjango\n"
+#~ "  Rune Jensen https://launchpad.net/~runeofdenmark\n"
+#~ "  Rune Jensen https://launchpad.net/~runeofdenmark-n\n"
+#~ "  Simon https://launchpad.net/~sims73\n"
+#~ "  Steffen Christensen https://launchpad.net/~drmclaser\n"
+#~ "  js https://launchpad.net/~jonas-stisen-mb\n"
+#~ "  scootergrisen https://launchpad.net/~scootergrisen"
